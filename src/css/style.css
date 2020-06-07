@@ -3,44 +3,189 @@ body {
     font-family: Calibri, sans-serif;
 }
 
-.main{
+.main {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .header {
     background: #01172E;
-    width: 1140px;
-    height: 69px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 94px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     color: #ffffff;
 }
 
-.header-icon{
-    padding-top: 5px;
+.header-icon {
+    padding-top: 7px;
 }
-.header-title{
+
+.header-title {
     font-family: Galindo, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 29px;
 }
-.header-menu ul{
-    border: 1px red solid;
+
+.header-menu {
+    margin-right: 50px;
+}
+
+.header-menu ul {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
-.header-men-link{
-    /*margin: auto;*/
+
+.header-men-link {
+    margin-right: 15px;
 }
 
-.header-men-link a{
+.header-men-link a {
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
     text-align: center;
 }
+
+/*===================================================================================*/
+
+.main-app {
+    width: 100%;
+    height: 722px;
+    background: url("../img/main-app/main-phon.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    color: #ffffff;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.main-app:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+
+.app-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.app-info__logo {
+    margin-bottom: 40px;
+}
+
+.app-info__title {
+    font-weight: bold;
+    width: 40%;
+    margin-bottom: 33px;
+}
+
+.app-info__g-p {
+    margin-bottom: 33px;
+}
+
+.app-info__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px
+}
+
+.target {
+    /*width: 25%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.target__title {
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.target__description {
+    width: 80%;
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+/*===============================================================================*/
+.capacity {
+    height: 655px;
+    width: 85%;
+    align-content: center;
+    color: #181818;
+}
+
+.capacity-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.capacity-item img {
+    margin-bottom: 14px;
+}
+
+.capacity-item__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.capacity-item__description {
+    font-size: 12px;
+    width: 50%;
+}
+
+/*==========================================================================================*/
+
+.using {
+    height: 1000px;
+    background: url("../img/using-app/using-phon.jpg") center no-repeat;
+    display: block;
+    text-align: center;
+}
+
+.using-texts {
+    margin: 80px 210px 0 210px;
+    width: 75%;
+}
+
+.using-text__title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #012242;
+}
+
+.using-text__description {
+    margin-top: 40px;
+    font-size: 25px;
+    color: rgba(75, 98, 119, 0.59);;
+}
+/*========================================================================================*/
+
