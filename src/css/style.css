@@ -192,7 +192,7 @@ body {
 .footer {
     padding-top: 56px;
     color: #ffffff;
-    height: 760px;
+    height: 790px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,7 +240,7 @@ body {
     flex-wrap: wrap;
 }
 
-.input-text label{
+.input-text label {
     width: 13%;
     height: 100%;
     margin-bottom: 0;
@@ -251,7 +251,8 @@ body {
     color: #012344;
     border: 1px solid;
 }
-.input-text input{
+
+.input-text input {
     padding: 10px;
     width: 87%;
     height: 100%;
@@ -272,4 +273,20 @@ body {
     background: #ffffff;
     border: none;
     border-radius: 6px;
+}
+
+.team {
+    background: #ffffff;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.team p{
+    margin: -2px 8px 0 auto;
+    padding: 0;
+    height: 100%;
+    color: #012343;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
 }
