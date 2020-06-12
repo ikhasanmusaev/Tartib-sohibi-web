@@ -11,6 +11,9 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <!--    Font Awosome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
@@ -18,47 +21,57 @@
 
 <div class="main">
 
-    <header class="header">
-        <div class="header-icon">
-            <img src="img/header/header-icon.png" height="94px" alt="icon">
+    <header class="header row">
+        <div class="header-icon col-lg-3 col-5">
+            <img src="img/header/header-icon.png" alt="icon">
         </div>
         <!-- /.header-icon -->
-        <div class="header-title">
+        <div class="header-title col-lg-3 col-5">
             Tartib sohibi
         </div>
         <!-- /.header-heading -->
-        <div class="header-menu">
-            <ul>
-                <li class="header-men-link">
-                    <a href="#main-app">Bosh sahifa</a>
-                </li>
-                <!-- /.header-men-link -->
-                <li class="header-men-link">
-                    <a href="#capacity-app">Dasturdan imkoniyatlari</a>
-                </li>
-                <!-- /.header-men-link -->
-                <li class="header-men-link">
-                    <a href="#using-app">Dastur foydalanish</a>
-                </li>
-                <!-- /.header-men-link -->
-                <li class="header-men-link">
-                    <a href="#info-app">Dastur haqida</a>
-                </li>
-                <!-- /.header-men-link -->
-                <li class="header-men-link">
-                    <a href="#devs-contact">Contact</a>
-                </li>
-                <!-- /.header-men-link -->
-            </ul>
+        <div class="header-menu col-lg-6 col-2">
+            <div class="active_link">
+                <a class="bars text-center" href="#">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+                <a class="times text-center" href="#">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="position-relative">
+                <ul class="menus">
+                    <li class="header-men-link">
+                        <a href="#main-app">Bosh sahifa</a>
+                    </li>
+                    <!-- /.header-men-link -->
+                    <li class="header-men-link">
+                        <a href="#capacity-app">Dastur imkoniyatlari</a>
+                    </li>
+                    <!-- /.header-men-link -->
+                    <li class="header-men-link">
+                        <a href="#using-app">Dasturdan foydalanish</a>
+                    </li>
+                    <!-- /.header-men-link -->
+                    <li class="header-men-link">
+                        <a href="#info-app">Dastur haqida</a>
+                    </li>
+                    <!-- /.header-men-link -->
+                    <li class="header-men-link">
+                        <a href="#devs-contact">Contact</a>
+                    </li>
+                    <!-- /.header-men-link -->
+                </ul>
+            </div>
         </div>
         <!-- /.header-menu -->
     </header>
     <!-- /.header -->
 
     <section class="main-app row" id="main-app">
-        <div class="app-info col-lg-4 align-items-center">
+        <div class="app-info col-lg-4 col-12 col-md-6 order-md-0">
             <div class="app-info__logo">
-                <img src="img/main-app/main-icon.png" width="105px" alt="logo">
+                <img src="img/main-app/main-icon.png" alt="logo">
             </div>
             <div class="app-info__title">
                 Tartib sohibi ilovasi yordamida qazo bo’lgan <br>
@@ -66,7 +79,7 @@
             </div>
             <div class="app-info__g-p">
                 <a href="https://play.google.com/store/apps/details?id=uz.hashteam.tartibsohibi">
-                    <img src="img/main-app/icon-g-p.png" height="62px" alt="icon-google-play">
+                    <img src="img/main-app/icon-g-p.png" alt="icon-google-play">
                 </a>
             </div>
             <div class="app-info__subtitle">
@@ -75,7 +88,7 @@
         </div>
 
         <!-- /.app-info -->
-        <div class="target col-lg-4">
+        <div class="target col-lg-4 col-12 col-md-12 order-md-3">
             <div class="target__title">
                 <h2>
                     Maqsadimiz
@@ -83,7 +96,7 @@
             </div>
             <div class="target__description">
                 <p>
-                    Tartib sohibi - bir necha yil yoki umr mobaynida o‘qilmay qolgan namozlarni
+                    <strong>Tartib sohibi</strong> - bir necha yil yoki umr mobaynida o‘qilmay qolgan namozlarni
                     tartibli o‘qib borish uchun mo‘ljallangan raqamli kundalikdir! Dastur qoldirib
                     yuborilgan (qazo) namozlarni tartibli o‘qib borishga mo‘ljallangan.
                 </p>
@@ -91,16 +104,17 @@
         </div>
         <!-- /.target -->
 
-        <div class="slider col-lg-4">
-            <img src="img/main-app/main-telephone.png" height="450px" alt="Slider">
+        <div class="slider col-lg-4 col-12 col-md-6 order-md-2">
+            <img src="img/main-app/main-telephone.png" alt="Slider">
         </div>
         <!-- /.slider -->
     </section>
     <!-- /.main-app -->
 
-    <section class="capacity d-flex row" id="capacity-app">
-        <div class="capacity-item col-lg-4">
-            <div class="capacity-item__img"><img src="img/capacity/item-1.png" height="132px" alt="everyday"></div>
+    <section class="capacity row" id="capacity-app">
+        <div class="capacity-item col-lg-4 col-12 col-md-6">
+
+            <div class="capacity-item__img"><img src="img/capacity/item-1.png" alt="everyday"></div>
             <!-- /.capacity-item__img -->
             <div class="capacity-item__title">Kunlik namozlar</div>
             <!-- /.capacity-item__title -->
@@ -108,8 +122,8 @@
             <!-- /.capacity-item__description -->
         </div>
         <!-- /.capacity-item -->
-        <div class="capacity-item col-lg-4">
-            <div class="capacity-item__img"><img src="img/capacity/item-2.png" height="132px" alt="calendar"></div>
+        <div class="capacity-item col-lg-4 col-12 col-md-6 ">
+            <div class="capacity-item__img"><img src="img/capacity/item-2.png" alt="calendar"></div>
             <!-- /.capacity-item__img -->
             <div class="capacity-item__title">Kalendar</div>
             <!-- /.capacity-item__title -->
@@ -119,10 +133,10 @@
             <!-- /.capacity-item__description -->
         </div>
         <!-- /.capacity-item -->
-        <div class="capacity-item col-lg-4">
-            <div class="capacity-item__img"><img src="img/capacity/item-3.png" height="132px" alt="calendar2"></div>
+        <div class="capacity-item col-lg-4 col-12 col-md-6">
+            <div class="capacity-item__img"><img src="img/capacity/item-3.png" alt="calendar2"></div>
             <!-- /.capacity-item__img -->
-            <div class="capacity-item__title">Qazo namozlari jadvali</div>
+            <div class="capacity-item__title">Qulay jadval</div>
             <!-- /.capacity-item__title -->
             <div class="capacity-item__description"> O’qilgan va o’qilmagan qazo namozlaringizni to’liq jadvalini
                 kuzatish
@@ -130,17 +144,17 @@
             <!-- /.capacity-item__description -->
         </div>
         <!-- /.capacity-item -->
-        <div class="capacity-item col-lg-4">
-            <div class="capacity-item__img"><img src="img/capacity/item-4.png" height="132px" alt="menu"></div>
+        <div class="capacity-item col-lg-4 col-12 col-md-6">
+            <div class="capacity-item__img"><img src="img/capacity/item-4.png" alt="menu"></div>
             <!-- /.capacity-item__img -->
-            <div class="capacity-item__title">Menyu</div>
+            <div class="capacity-item__title">Mavzular</div>
             <!-- /.capacity-item__title -->
-            <div class="capacity-item__description">Dasturga oid funksiyalar</div>
+            <div class="capacity-item__description">O'zingiz yoqgan rangdagi mavzudan foydalaning</div>
             <!-- /.capacity-item__description -->
         </div>
         <!-- /.capacity-item -->
-        <div class="capacity-item col-lg-4">
-            <div class="capacity-item__img"><img src="img/capacity/item-5.png" height="132px" alt="upload"></div>
+        <div class="capacity-item col-lg-4 col-12 col-md-6">
+            <div class="capacity-item__img"><img src="img/capacity/item-5.png" alt="upload"></div>
             <!-- /.capacity-item__img -->
             <div class="capacity-item__title">Ma’lumotlarni yuklash</div>
             <!-- /.capacity-item__title -->
@@ -150,13 +164,13 @@
             <!-- /.capacity-item__description -->
         </div>
         <!-- /.capacity-item -->
-        <div class="capacity-item col-lg-4">
-            <div class="capacity-item__img"><img src="img/capacity/item-3.png" height="132px" alt="calendar"></div>
+        <div class="capacity-item col-lg-4 col-12 col-md-6">
+            <div class="capacity-item__img"><img src="img/capacity/item-6.png" alt="language"></div>
             <!-- /.capacity-item__img -->
-            <div class="capacity-item__title">Qazo namozlari jadvali</div>
+            <div class="capacity-item__title">Tillar</div>
             <!-- /.capacity-item__title -->
-            <div class="capacity-item__description"> O’qilgan va o’qilmagan qazo namozlaringizni to’liq jadvalini
-                kuzatish
+            <div class="capacity-item__description"> Siz ilovani 4 xil tildan o’zingizga qulayini tanlab ishlatishingiz
+                mumkin
             </div>
             <!-- /.capacity-item__description -->
         </div>
@@ -226,13 +240,13 @@
         <form action="" class="contacts-form">
             <div class="input-text">
                 <label for="contact-name">
-                    Ism
+                    <span>Ism</span>
                 </label>
                 <input type="text" id="contact-name">
             </div>
             <div class="input-text">
                 <label for="contact-email">
-                    <img src="img/icon-email.png" width="35px" alt="email-icon">
+                    <img src="img/icon-email.png" alt="email-icon">
                 </label>
                 <input type="email" id="contact-email">
             </div>
