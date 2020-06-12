@@ -83,7 +83,7 @@
                 namozlaringizni tartibli ravishda ado eting!
             </div>
             <div class="app-info__g-p">
-                <a href="https://play.google.com/store/apps/details?id=uz.hashteam.tartibsohibi">
+                <a href="https://play.google.com/store/apps/details?id=uz.hashteam.tartibsohibi" target="_blank">
                     <img src="img/main-app/icon-g-p.png" alt="icon-google-play">
                 </a>
             </div>
@@ -110,7 +110,43 @@
         <!-- /.target -->
 
         <div class="slider col-lg-4 col-12 col-md-6 order-md-2 order-lg-2">
-            <img src="img/main-app/main-telephone.png" alt="Slider">
+            <div class="carousel slide" id="main-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#main-carousel" data-slide-to="0" class="active bg-dark"></li>
+                    <li data-target="#main-carousel" data-slide-to="1" class="bg-dark"></li>
+                    <li data-target="#main-carousel" data-slide-to="2" class="bg-dark"></li>
+                    <li data-target="#main-carousel" data-slide-to="3" class="bg-dark"></li>
+                    <li data-target="#main-carousel" data-slide-to="4" class="bg-dark"></li>
+                </ol><!-- /.carousel-indicators -->
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="img/main-app/carousel/1.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="img/main-app/carousel/2.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="img/main-app/carousel/3.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/main-app/carousel/5.png" alt="" class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/main-app/carousel/4.png" alt="" class="d-block img-fluid">
+                    </div>
+                </div><!-- /.carousel-inner -->
+
+                <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only" aria-hidden="true">Prev</span>
+                </a>
+                <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only" aria-hidden="true">Next</span>
+                </a>
+            </div><!-- /.carousel -->
+
         </div>
         <!-- /.slider -->
     </section>
