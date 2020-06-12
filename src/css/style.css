@@ -59,6 +59,19 @@ body {
     color: #85D45D;
 }
 
+/*========================to top================================*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 50% !important;
+    z-index: 10;
+}
+
 /*===================================================================================*/
 
 .main-app {
@@ -537,7 +550,7 @@ body {
     }
 }
 
-@media (max-width: 768px) and (min-width: 576px){
+@media (max-width: 768px) and (min-width: 576px) {
     .menus {
         position: fixed;
         top: 0;
@@ -584,6 +597,7 @@ body {
     .header-men-link a {
         font-size: 20px;
     }
+
     /*=======================app-info==============================*/
     .app-info {
         order: 1;
@@ -625,28 +639,32 @@ body {
         order: 3;
     }
 
-    .target__title h2{
+    .target__title h2 {
         font-size: 50px;
     }
-    .target__description{
+
+    .target__description {
         font-size: 30px;
         line-height: 136.07%;
         width: 85%;
         text-align: center;
     }
+
     /*=================capacity=============================*/
     .capacity-item img {
         height: 137px;
     }
+
     .capacity-item__title {
         font-size: 30px;
     }
+
     .capacity-item__description {
         font-size: 20px;
         width: 90%;
     }
-    /*==========================using===========================*/
 
+    /*==========================using===========================*/
     .using {
         padding: 30px;
     }
@@ -673,7 +691,7 @@ body {
 
 }
 
-@media (max-width: 991px) and (min-width: 769px){
+@media (max-width: 991px) and (min-width: 769px) {
     .menus {
         position: fixed;
         top: 0;
@@ -697,9 +715,11 @@ body {
     .active_link {
         display: block;
     }
+
     .active_link i {
         font-size: 30px;
     }
+
     .bars {
         display: block;
         color: #ffffff;

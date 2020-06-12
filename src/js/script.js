@@ -39,6 +39,22 @@ $(document).ready(function () {
         $('.menus').css({
             'right': '-102%'
         })
-    })
+    });
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 230) {
+            $('#back-to-top').show();
+        } else {
+            $('#back-to-top').hide();
+        }
+    });
+    // scroll body to 0px on click
+    $('#back-to-top').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
+
 })
 
